@@ -1,12 +1,3 @@
-.figtree-<uniquifier> {
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
-/*everything above is from googlefonts to link Figtree font*/
-
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: figtree;
@@ -80,7 +71,6 @@ h1:hover {
 .innerInlineDiv {
     display: inline-flex;
     margin-left: 1em;
-    text-align: 
 }
 
 .userIcon {
