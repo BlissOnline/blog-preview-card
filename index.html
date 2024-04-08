@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--Code below in head is my additions-->
+  <link rel="stylesheet" type="text/css" href="css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap" rel="stylesheet">
+
+  <!--Code below in head was prewritten in project from frontendmentor-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<body>
+  <main>
+    <!--just space to vertically center-->
+    <div class="spaceDiv"></div>
+    <!--entire box of content (7 items inside)-->
+    <!--details: curved edges, use span to change style of each, add accesibility to img's <p>-->
+    <div class="mainDiv">
+      <div class="parentDiv">
+        <!--designer artimage-->
+          <img class="blogArt" src="/assets/images/illustration-article.svg" alt="abstract illustration">
+      </div>
+      <!--Learning box-->
+      <p class="background"> <b>Learning </b> </p>
+
+      <!--date-->
+      <p>Published 21 Dec 2023</p>
+
+      <!--header with hover FX, FX turns text yellow-->
+      <h1>HTML & CSS foundations</h1>
+
+      <!--paragraph desription-->
+      <p class="description">These languages are the backbone of every website, defining structure, content, and presentation</p>
+
+      <!---->
+      <div class="innerInlineDiv">
+        <!--user image icon-->
+        <img class="userIcon" src="/assets/images/image-avatar.webp" alt="user image">
+
+        <!--user name Greg Hooper-->
+        <p><span class="author">Greg Hooper</span></p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>

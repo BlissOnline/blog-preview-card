@@ -1,0 +1,99 @@
+.figtree-<uniquifier> {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+/*everything above is from googlefonts to link Figtree font*/
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: figtree;
+  /*  box-sizing: border-box;  */
+}
+
+.spaceDiv {
+    margin: 14%;
+}
+
+.mainDiv {
+    /* position syntax */
+    display: block;
+    width: 25%;
+    margin: auto;
+    padding-top: 1%;
+    top: 50%;
+    padding-bottom: 1em;
+    min-width: 220px;
+    /* style syntax */
+    background-color: white;
+    border: black solid 1px;;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+}
+
+h1 {
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+
+p {
+    margin-left: 1em;
+    max-width: 19rem;
+    font-size: 1rem;
+    padding-right: 1em;
+}
+
+.blogArt {
+    width: 94%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.parentDiv {
+    display: flex;
+    justify-content: center;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+
+.description {
+    color: hsl(0, 0%, 50%);
+}
+
+.background {
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 1.3em;
+    margin-right: 83%;
+    border-radius: 5px;
+    padding: 0.4em;
+    width: fit-content;
+    text-align: center;
+
+}
+
+.innerInlineDiv {
+    display: inline-flex;
+    margin-left: 1em;
+    text-align: 
+}
+
+.userIcon {
+    width: auto;
+    height: 2em;
+    margin-top: 0.65em;
+    margin-right: -0.2em;
+}
+
+.author {
+    font-weight: 790;
+}
+/*
+@media only screen and () {
+
+} */

@@ -20,6 +20,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
+Hello all, I'm Wes and this is my experience with the challenge. Generally it felt like a good challenge for my current level. Now that I've completed the project, the main thing I would like to improve is manipulating the elements inside a parent at a faster pace. I suspect investing time into learning flexbox and grid will improve this weakness.
+
 ### The challenge
 
 Users should be able to:
@@ -28,83 +30,94 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+1. Download project files and pick a folder where to extract files
+  -Open folder from your IDE, mine is Visual Studio Code
+
+2. Get the jist of the project with the README.md
+    -Organize notes on challenges you need to solve.
+      -example: How do I make a hover FX that changes the text color
+
+2. Go to github and make a repository 
+
+3. In my IDE use git bash to link local project to the github repository 
+
+4. Start to approach HTML. 
+  -view the contents of the project like boxes. 
+    -Start to count all the boxes and how many elements are in each box
+      -I counted 1 box with 7 elements inside 
+
+5. Write HTML
+  - Take our knowledge of how many boxes and how many elemnts inside eaxh box start to make <div> tag(s)
+    - I also make comments of every element inside the box to make it easier to read, also this makes it obvious what I need to do next
+
+6. Link all photos with <img src="">
+  -also use alt="" attribute to optimize accessibiiity
+
+7. Write CSS
+  -I like to start with colors
+  -get parent element in proper position
+    -use relative units for responsive design
+  -get child elemnts in proper position 
+    -relative units
+
+8. Test responsive nature of website, shrink and expand, determine where and what the weakpoints are
+  -make max or min width length for text that is too close to edges of the parent
+  -make media queries if needed
+
+9. Start to fine tweak and push to have the clean version of the desired website/app
+  -There will probably be minor tweaks needed, make the adjustments 
+    -A final tweak I needed was to properly align the icon photo with the author name, originally the icon image was too high
+      -I used padding and margin manipulation to correct this
+  - delete unused code and big empty space areas 
+
+10. Create the README for your project
+  -Leverage this reflection stage to put awareness on what you need to improve on
+  -Organize it will so people can learn from your experience 
+
+11. Push final version to github
+
+12. Submit for feedback and learn from others who are further in the journey than you
+  -Always be grateful for feedback 
+  
+13. Tackle the next step in your journey and keep improving 
+  -Remember to be happy and celebrate your accomplishments and finished projects
+  -You probably have an idea of where you need to improve at this point, start planning your next move 
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+-margin collapse
+  -when the top/bottom margins of elements collapse into one another 
+-resize an image proportionally
+  width: auto;
+  height: 2em;
+-hover selector with 
+  -h1 :hover  {background-color: yellow;}
+-shadow on box 
+  -.fullDiv { box-shadow: 2px 2px black; }
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+-I had a inefficient approach to making child elements line up vertically
+  -I'm hoping to find a more efficient way to layout child elements fast and in an organized fashion
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+-I think at this point I need to learn more about flexbox and grid 
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+Wes Laycock
+- Website - <!--Coming soon-->
 
 ## Acknowledgments
+YouTube
+StackOverFlow
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
