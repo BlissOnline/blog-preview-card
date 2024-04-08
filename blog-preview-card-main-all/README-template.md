@@ -28,10 +28,9 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
-
 ### Links
 
+https://blissonline.github.io/blog-preview-card/blog-preview-card-main-all/index.html
 
 ## My process
 
