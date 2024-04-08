@@ -1,7 +1,6 @@
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: figtree;
-  /*  box-sizing: border-box;  */
 }
 
 .spaceDiv {
@@ -83,7 +82,3 @@ h1:hover {
 .author {
     font-weight: 790;
 }
-/*
-@media only screen and () {
-
-} */
